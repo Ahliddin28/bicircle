@@ -1,0 +1,153 @@
+header{
+  height: 100%;
+  background-color: #1B1A1F;
+  overflow-x: hidden;
+}
+.nav{
+  display: flex;
+}
+.nav a:hover{
+  background:none
+}
+#icons{
+  display: grid;
+}
+.flex{
+  display: flex;
+}
+.img{
+  margin-left: 200px;
+  
+}
+.grey{
+  width: 100%;
+  height: 90%;
+  margin-top: 10%;
+  margin-left: 20%;
+  background-color: #2F2E30;
+}
+.velli{
+  max-width: 120%;
+  margin-top: -100%;
+  margin-left: -10%;
+
+}
+.second-section{
+height: 100vh;
+
+}
+.between{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.swiper {
+  width: 370px;
+  height: 300px;
+  margin-right: 5%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.third-section{
+  height: 100vh;
+  margin-top: 10%;
+}
+.mg{
+  margin-top: -70px;
+  margin-left: 10px;
+}
+.columns .column .box{
+   width: 100%;
+   height: auto;
+   padding: 0;
+}
+.columns .column .box img{
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+.four{
+  margin-top: 55%;
+  height: 100%;
+  width: 100%;
+}
+.flexwrap{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media(max-width:1024px){
+  .nav{
+    display: block;
+  }
+  #navbarBasicExample{
+    background-color: #1B1A1F;
+  }
+  .four{
+    margin-top: 30%;
+  }
+
+}
+
+@media(max-width:768px){
+  .img{
+    margin-left: 100px;
+  }
+  .velli{
+    margin-top: -300px;
+    width: 100%;
+    margin-left: 10%;
+  }
+  .grey{
+    margin-left: 0;
+    margin-top: 0;
+    z-index: 999;
+    height: 300px;
+  }
+  header{
+    height: 100vh;
+  }
+  .third-section{
+    margin-top: 50%;
+  }
+  .four{
+    margin-top: 50%;
+  }
+  .swiper{
+    margin-left: -5%;
+  }
+  .four{
+    margin-top: 200%;
+    height: 100%;
+    
+  }
+  .four 
+}
